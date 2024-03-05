@@ -1,0 +1,466 @@
+[
+  {
+    "children": [],
+    "id": "x1891JTo7NQbSmG5DuuHo7",
+    "versionInfo": {
+      "commit": "792f821",
+      "version": "3.10.5"
+    },
+    "type": "start",
+    "badges": {
+      "execute": true
+    },
+    "data": {
+      "label": "https://de224.die-staemme.de/game.php?village=2375&screen=overview",
+      "referrerUrl": null,
+      "blockAds": false,
+      "disableStealth": false,
+      "preserveCookies": false,
+      "static": false,
+      "append": false,
+      "stopAtDuplicate": false,
+      "deduplicateReference": null,
+      "dynamic": {
+        "enabled": false,
+        "instanceId": null,
+        "listId": null,
+        "listHeaderId": null,
+        "actionId": null,
+        "googleSheetId": null,
+        "sheetId": null,
+        "column": null,
+        "source": null,
+        "useParentCookie": false,
+        "skipOnFail": false,
+        "batchSize": 0,
+        "resume": false,
+        "sampleIndex": 0,
+        "skipHeader": false,
+        "useDuplicateLinks": false
+      },
+      "schedule": {
+        "enabled": true,
+        "randomize": false,
+        "randomStart": 0,
+        "randomEnd": 0,
+        "intervalVal": 70,
+        "intervalUnit": "mins"
+      },
+      "trigger": {
+        "enabled": false,
+        "type": "schedule",
+        "instanceId": null
+      },
+      "dynamicInput": {
+        "limit": 0,
+        "resume": false
+      },
+      "proxy": []
+    },
+    "disabled": false,
+    "noAccess": false,
+    "next": {
+      "down": "dRfu1kPFf9LNiqsVnJW93c",
+      "left": null,
+      "parent": "root",
+      "children": []
+    }
+  },
+  {
+    "id": "dRfu1kPFf9LNiqsVnJW93c",
+    "icon": "hand-point-up",
+    "children": [],
+    "isExpanded": true,
+    "badges": {
+      "selector": true,
+      "execute": true
+    },
+    "type": "click",
+    "data": {
+      "count": 1,
+      "css": {
+        "roots": null,
+        "selector": "span > a.quickbar_link",
+        "patterns": [
+          {
+            "pattern": "span > a.quickbar_link",
+            "parent": "ul.quickbar span",
+            "grandParent": "li.quickbar_item"
+          }
+        ],
+        "navigation": false,
+        "generalizedSelector": "span > a.quickbar_link",
+        "xpath": "html/body/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr[2]/td[2]/ul/li[4]/span/a[1]",
+        "hasImage": true,
+        "uniqueSelector": ".quickbar_item:nth-of-type(4) .quickbar_link",
+        "parent": ".quickbar_item:nth-of-type(4) span",
+        "grandParent": ".quickbar .quickbar_item:nth-of-type(4)",
+        "validationProperties": {
+          "innerText": "Versammlungsplatz",
+          "tagName": "A",
+          "xpath": "/html/body/table/tbody/tr[2]/td[2]/table[1]/tbody/tr/td/table/tbody/tr[2]/td[2]/ul/li[4]/span/a"
+        }
+      },
+      "state": {
+        "selectionType": "unique",
+        "selection": [
+          ".quickbar_item:nth-of-type(4) .quickbar_link"
+        ],
+        "rejection": []
+      },
+      "label": "Versammlungsplatz",
+      "subType": "single",
+      "skip": false,
+      "reClick": false,
+      "delay": "10000",
+      "timeout": 30000,
+      "pages": 1,
+      "dynamicInput": {
+        "type": null,
+        "sourceId": null,
+        "limit": 0,
+        "sampleInput": null,
+        "resume": false
+      },
+      "xpathCount": 1,
+      "generalizedSelectorCount": 1
+    },
+    "noAccess": false,
+    "next": {
+      "parent": "root",
+      "down": "6wqAkgVuur6HCyi1PpxADc",
+      "left": null,
+      "children": []
+    }
+  },
+  {
+    "id": "6wqAkgVuur6HCyi1PpxADc",
+    "icon": "hand-point-up",
+    "children": [],
+    "isExpanded": true,
+    "badges": {
+      "selector": true,
+      "execute": true
+    },
+    "type": "click",
+    "data": {
+      "count": 1,
+      "css": {
+        "roots": null,
+        "selector": "td > a",
+        "patterns": [
+          {
+            "pattern": "td > a",
+            "parent": "td",
+            "grandParent": "tr"
+          }
+        ],
+        "navigation": false,
+        "generalizedSelector": "td > a",
+        "xpath": "html/body/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr/td[3]/a[1]",
+        "uniqueSelector": ".modemenu td:nth-of-type(3) a",
+        "parent": ".modemenu tr td:nth-of-type(3)",
+        "grandParent": ".modemenu tr",
+        "validationProperties": {
+          "innerText": "Raubzug",
+          "tagName": "A",
+          "xpath": "/html/body/table/tbody/tr[2]/td[2]/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/table[2]/tbody/tr/td[3]/a"
+        }
+      },
+      "state": {
+        "selectionType": "unique",
+        "selection": [
+          ".modemenu td:nth-of-type(3) a"
+        ],
+        "rejection": []
+      },
+      "label": "Raubzug",
+      "subType": "single",
+      "skip": false,
+      "reClick": false,
+      "delay": "10000",
+      "timeout": 30000,
+      "pages": 1,
+      "dynamicInput": {
+        "type": null,
+        "sourceId": null,
+        "limit": 0,
+        "sampleInput": null,
+        "resume": false
+      },
+      "xpathCount": 1,
+      "generalizedSelectorCount": 1
+    },
+    "noAccess": false,
+    "next": {
+      "parent": "root",
+      "down": "v5NukKGG7o3b1qngUUNbAm",
+      "left": null,
+      "children": []
+    }
+  },
+  {
+    "id": "v5NukKGG7o3b1qngUUNbAm",
+    "icon": "hand-point-up",
+    "children": [],
+    "isExpanded": true,
+    "badges": {
+      "selector": true,
+      "execute": true
+    },
+    "type": "click",
+    "data": {
+      "count": 1,
+      "css": {
+        "roots": null,
+        "selector": "td > button.btn",
+        "patterns": [
+          {
+            "pattern": "td > button.btn",
+            "parent": "td",
+            "grandParent": "tr"
+          }
+        ],
+        "navigation": false,
+        "generalizedSelector": "td > button.btn",
+        "xpath": "html/body/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div/table/tbody/tr[2]/td[8]/button[1]",
+        "uniqueSelector": ".SendScavenger",
+        "parent": "tr:nth-of-type(2) > td:nth-of-type(8)",
+        "grandParent": ".candidate-squad-widget tbody tr:nth-of-type(2)",
+        "validationProperties": {
+          "innerText": "Raubzug senden",
+          "tagName": "BUTTON",
+          "xpath": "/html/body/table/tbody/tr[2]/td[2]/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[1]/table/tbody/tr[2]/td[8]/button"
+        }
+      },
+      "state": {
+        "selectionType": "unique",
+        "selection": [
+          ".SendScavenger"
+        ],
+        "rejection": []
+      },
+      "label": "RZ - Senden",
+      "subType": "single",
+      "skip": false,
+      "reClick": false,
+      "delay": "5000",
+      "timeout": 30000,
+      "pages": 1,
+      "dynamicInput": {
+        "type": null,
+        "sourceId": null,
+        "limit": 0,
+        "sampleInput": null,
+        "resume": false
+      },
+      "xpathCount": 1,
+      "generalizedSelectorCount": 1
+    },
+    "noAccess": false,
+    "next": {
+      "parent": "root",
+      "down": "2ZnaeoH8nXBPzETYhGTetr",
+      "left": null,
+      "children": []
+    }
+  },
+  {
+    "id": "2ZnaeoH8nXBPzETYhGTetr",
+    "icon": "hand-point-up",
+    "children": [],
+    "isExpanded": true,
+    "badges": {
+      "selector": true,
+      "execute": true
+    },
+    "type": "click",
+    "data": {
+      "count": 1,
+      "css": {
+        "roots": null,
+        "selector": "div.action-container > a.free_send_button",
+        "patterns": [
+          {
+            "pattern": "div.action-container > a.free_send_button",
+            "parent": "div.action-container",
+            "grandParent": "div.inactive-view"
+          }
+        ],
+        "navigation": false,
+        "generalizedSelector": "div.action-container > a.free_send_button",
+        "xpath": "html/body/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[2]/div[3]/div[3]/div/div[2]/a[1]",
+        "uniqueSelector": ".options-container .border-frame-gold-red:nth-of-type(3) .free_send_button",
+        "parent": ".options-container .border-frame-gold-red:nth-of-type(3) .action-container",
+        "grandParent": ".options-container .border-frame-gold-red:nth-of-type(3) .inactive-view",
+        "validationProperties": {
+          "innerText": "Start",
+          "tagName": "A",
+          "xpath": "/html/body/table/tbody/tr[2]/td[2]/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[2]/div[3]/div[3]/div/div[2]/a[1]"
+        }
+      },
+      "state": {
+        "selectionType": "unique",
+        "selection": [
+          ".options-container .border-frame-gold-red:nth-of-type(3) .free_send_button"
+        ],
+        "rejection": []
+      },
+      "label": "S1",
+      "subType": "single",
+      "skip": false,
+      "reClick": false,
+      "delay": "1023",
+      "timeout": 30000,
+      "pages": 1,
+      "dynamicInput": {
+        "type": null,
+        "sourceId": null,
+        "limit": 0,
+        "sampleInput": null,
+        "resume": false
+      },
+      "xpathCount": 1,
+      "generalizedSelectorCount": 1
+    },
+    "noAccess": false,
+    "next": {
+      "parent": "root",
+      "down": "k2SRmJ2eVtDEpJpasmYuxp",
+      "left": null,
+      "children": []
+    }
+  },
+  {
+    "id": "k2SRmJ2eVtDEpJpasmYuxp",
+    "icon": "hand-point-up",
+    "children": [],
+    "isExpanded": true,
+    "badges": {
+      "selector": true,
+      "execute": true
+    },
+    "type": "click",
+    "data": {
+      "count": 1,
+      "css": {
+        "roots": null,
+        "selector": "div.action-container > a.free_send_button",
+        "patterns": [
+          {
+            "pattern": "div.action-container > a.free_send_button",
+            "parent": "div.action-container",
+            "grandParent": "div.inactive-view"
+          }
+        ],
+        "navigation": false,
+        "generalizedSelector": "div.action-container > a.free_send_button",
+        "xpath": "html/body/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[2]/div[2]/div[3]/div/div[2]/a[1]",
+        "uniqueSelector": ".options-container .border-frame-gold-red:nth-of-type(2) .free_send_button",
+        "parent": ".options-container .border-frame-gold-red:nth-of-type(2) .action-container",
+        "grandParent": ".options-container .border-frame-gold-red:nth-of-type(2) .inactive-view",
+        "validationProperties": {
+          "innerText": "Start",
+          "tagName": "A",
+          "xpath": "/html/body/table/tbody/tr[2]/td[2]/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[2]/div[2]/div[3]/div/div[2]/a[1]"
+        }
+      },
+      "state": {
+        "selectionType": "unique",
+        "selection": [
+          ".options-container .border-frame-gold-red:nth-of-type(2) .free_send_button"
+        ],
+        "rejection": []
+      },
+      "label": "S2",
+      "subType": "single",
+      "skip": false,
+      "reClick": false,
+      "delay": "1023",
+      "timeout": 30000,
+      "pages": 1,
+      "dynamicInput": {
+        "type": null,
+        "sourceId": null,
+        "limit": 0,
+        "sampleInput": null,
+        "resume": false
+      },
+      "xpathCount": 1,
+      "generalizedSelectorCount": 1
+    },
+    "noAccess": false,
+    "next": {
+      "parent": "root",
+      "down": "bn3fD75Ez93zS83tR43J99",
+      "left": null,
+      "children": []
+    }
+  },
+  {
+    "id": "bn3fD75Ez93zS83tR43J99",
+    "icon": "hand-point-up",
+    "children": [],
+    "isExpanded": true,
+    "badges": {
+      "selector": true,
+      "execute": true
+    },
+    "type": "click",
+    "data": {
+      "count": 1,
+      "css": {
+        "roots": null,
+        "selector": "div.action-container > a.free_send_button",
+        "patterns": [
+          {
+            "pattern": "div.action-container > a.free_send_button",
+            "parent": "div.action-container",
+            "grandParent": "div.inactive-view"
+          }
+        ],
+        "navigation": false,
+        "generalizedSelector": "div.action-container > a.free_send_button",
+        "xpath": "html/body/table/tbody/tr[2]/td[2]/table/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[2]/div[1]/div[3]/div/div[2]/a[1]",
+        "uniqueSelector": ".options-container .border-frame-gold-red:nth-of-type(1) .free_send_button",
+        "parent": ".options-container .border-frame-gold-red:nth-of-type(1) .action-container",
+        "grandParent": ".options-container .border-frame-gold-red:nth-of-type(1) .inactive-view",
+        "validationProperties": {
+          "innerText": "Start",
+          "tagName": "A",
+          "xpath": "/html/body/table/tbody/tr[2]/td[2]/table[3]/tbody/tr/td/table/tbody/tr/td/table/tbody/tr/td/div/div/div[2]/div[1]/div[3]/div/div[2]/a[1]"
+        }
+      },
+      "state": {
+        "selectionType": "unique",
+        "selection": [
+          ".options-container .border-frame-gold-red:nth-of-type(1) .free_send_button"
+        ],
+        "rejection": []
+      },
+      "label": "S3",
+      "subType": "single",
+      "skip": false,
+      "reClick": false,
+      "delay": "1023",
+      "timeout": 30000,
+      "pages": 1,
+      "dynamicInput": {
+        "type": null,
+        "sourceId": null,
+        "limit": 0,
+        "sampleInput": null,
+        "resume": false
+      },
+      "xpathCount": 1,
+      "generalizedSelectorCount": 1
+    },
+    "noAccess": false,
+    "next": {
+      "parent": "root",
+      "down": "x1891JTo7NQbSmG5DuuHo7",
+      "left": null,
+      "children": []
+    }
+  }
+]
